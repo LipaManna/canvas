@@ -1,0 +1,9 @@
+@import '../../Styles/mixin.scss';
+
+.main-content .img-wrap{position: relative;padding-bottom: 60%;}
+.main-content .img-wrap img{
+    @include img-pad();
+
+}
+.main-content .content{padding-left: 60px;}
+.main-content .Rowreverse .content{padding-right: 60px;}

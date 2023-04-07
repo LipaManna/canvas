@@ -1,0 +1,23 @@
+.main-content .img-wrap {
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.main-content .img-wrap img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.main-content .content {
+  padding-left: 60px;
+}
+
+.main-content .Rowreverse .content {
+  padding-right: 60px;
+}/*# sourceMappingURL=about.css.map */

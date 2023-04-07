@@ -1,44 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-.container {
-  max-width: 1560px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 60px;
-}
-
-h2 {
-  font-size: 40px;
-}
-
-h3 {
-  font-size: 35px;
-}
-
-h4 {
-  font-size: 27px;
-}
-
-h5 {
-  font-size: 22px;
-}
-
-h6 {
-  font-size: 18px;
-}
-
-body {
-  font-size: 18px;
-}
-
-.common-pad {
-  padding: 80px 0;
-}
-
 .btn, a.btn-trans:hover {
   padding: 13px 25px;
   background-color: #FE9603;
@@ -70,8 +30,29 @@ a.btn:hover {
   color: #FE9603;
 }
 
-body {
-  font-family: "Quicksand", sans-serif;
-  padding: 0;
-  margin: 0;
-}/*# sourceMappingURL=App.css.map */
+header {
+  background-color: #FE9603;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li {
+  margin-right: 15px;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header .logo img {
+  width: 120px;
+}/*# sourceMappingURL=header.css.map */
